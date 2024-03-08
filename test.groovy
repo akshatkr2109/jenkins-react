@@ -7,7 +7,6 @@ pipeline {
                 sh 'echo "Hello"'
                     }
                 }
-            }
         stage('Ask for Input') {
             steps {
                 script {
@@ -27,4 +26,5 @@ pipeline {
                 }
             }
         }
+    }
 }
