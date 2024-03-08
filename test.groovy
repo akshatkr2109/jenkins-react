@@ -14,6 +14,9 @@ pipeline {
                 sh 'echo "----"'
                 sh 'echo $a'
                 sh 'echo "----"'
+                sh 'export b="second word'
+                sh 'exho $b'
+                sh 'echo "----"'
                     }
                 }
         // stage('Ask for Input') {
