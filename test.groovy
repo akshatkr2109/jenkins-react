@@ -5,18 +5,9 @@ pipeline {
         stage('List Snapshots') {
             steps {
                 sh 'echo "Hello"'
-                sh 'export a="first word"'
-                    }
-                }
-        stage('Check value') {
-            steps {
-                sh 'echo "$a"'
-                sh 'echo "----"'
+                sh 'a="first word" && echo $a'
+                sh 'echo "------"'
                 sh 'echo $a'
-                sh 'echo "----"'
-                sh 'export b="second word"'
-                sh 'echo $b'
-                sh 'echo "----"'
                     }
                 }
         // stage('Ask for Input') {
