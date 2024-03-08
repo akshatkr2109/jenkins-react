@@ -15,7 +15,7 @@ pipeline {
                 sh 'echo $a'
                 sh 'echo "----"'
                 sh 'export b="second word"'
-                sh 'exho $b'
+                sh 'echo $b'
                 sh 'echo "----"'
                     }
                 }
