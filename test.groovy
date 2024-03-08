@@ -5,7 +5,7 @@ pipeline {
         stage('List Snapshots') {
             steps {
                 sh 'echo "Hello"'
-                sh 'a="first word" && echo $a'
+                sh 'a="first word"'
                 sh 'echo "------"'
                 sh 'echo $a'
                     }
